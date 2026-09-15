@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cat > /tmp/telo_cutover.sh <<'SH'\\n#!/bin/bash\\nset -u\\nR=/Users/ulanazvezdun/VK-Vibe/unpack\\nLA=$HOME/Library/LaunchAgents\\necho \\\"=== 1. остановка на маке $(date +%H:%M:%S)\\\"\\nfor l in t...",
+  "error": "Exit code 2\n=== 1. остановка на маке 15:05:42\n  снят telo-group\n  снят telo-synth\n  снят telo2-serve\n  снят telo-dashboard-publish\n  процессов тела на маке нет\n=== 2. список данных\n  позиций:      153, голосовых в очереди: 0\n=== 3. устаревшие серверные стейты\n  на сервере было стейтов:        9, из них нет на маке:        0\n=== 4. копирование 15:05:44\n  стейты: мак      125 файлов / 1434310 байт, сервер 125 файлов / 1434310 байт\n  РАСХОЖДЕНИЕ — службы на сервере НЕ запускаю",
+  "timestamp": "2026-09-15T20:06:12.070Z",
+  "retry_count": 1
+}
